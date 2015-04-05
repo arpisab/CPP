@@ -90,10 +90,12 @@
     <ClInclude Include="compareDataTypes.h" />
     <ClInclude Include="fruitExampleClass.h" />
     <ClInclude Include="Functions.h" />
+    <ClInclude Include="killTheStack.h" />
     <ClInclude Include="plantsExampleClass.h" />
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="templateFuncion.h" />
     <ClInclude Include="Shortcuts.h" />
+    <ClInclude Include="Vectors_Push_Pop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
