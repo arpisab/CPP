@@ -95,6 +95,7 @@
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="templateFuncion.h" />
     <ClInclude Include="Shortcuts.h" />
+    <ClInclude Include="typedef.h" />
     <ClInclude Include="Vectors_Push_Pop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
