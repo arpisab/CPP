@@ -27,3 +27,27 @@ int main() {
 
 	return 0;
 }
+
+//
+
+#include <iostream>
+using namespace std;
+
+#define YOU
+
+void main()
+{
+
+	int a = 10, b = 10, c = 10;
+
+#ifndef YOU
+
+	int a = 1, b = 1, c = 1;
+
+#endif
+
+	printf("%d %d %d \n", a, b, c);
+
+	system("PAUSE");
+
+}
