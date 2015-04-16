@@ -93,6 +93,9 @@
     <ClInclude Include="killTheStack.h" />
     <ClInclude Include="plantsExampleClass.h" />
     <ClInclude Include="Pointers.h" />
+    <ClInclude Include="QuestionMarkOperator.h" />
+    <ClInclude Include="stack_VS_heap.h" />
+    <ClInclude Include="Static.h" />
     <ClInclude Include="templateFuncion.h" />
     <ClInclude Include="Shortcuts.h" />
     <ClInclude Include="typedef.h" />

@@ -50,5 +50,14 @@
     <ClInclude Include="typedef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="stack_VS_heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionMarkOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
