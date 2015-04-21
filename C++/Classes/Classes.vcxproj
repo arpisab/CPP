@@ -76,10 +76,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="ClassCollection\04_ConstInitializerLists.h" />
+    <ClInclude Include="ClassCollection\02_Constructors.h" />
+    <ClInclude Include="ClassCollection\01_ClassPerson_01.h" />
+    <ClInclude Include="ClassCollection\01_ClassPerson_02.h.h" />
+    <ClInclude Include="ClassCollection\03_StaticClassDataMember.h" />
+    <ClInclude Include="InitializingLargerDataMembers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

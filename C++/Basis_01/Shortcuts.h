@@ -4,7 +4,7 @@
 
 // ctrl-F5 start without debugging
 
-// F10 or F11 go go through the code
+// F10 = Step Over -> F11 Step IN the code
 
 // F9 toggle brakingpoint F5 debugging
 
@@ -23,3 +23,8 @@
 //CTRL + SHIFT + A = "Add new Item" 
 
 //CTRL + SHIFT + SPACE = gives the argumets to fill in the code
+
+// CTRL + K + D = Format Dodument
+// CTRL + K + F = Format Selection
+
+// CTRL + SHIFT + U = Makes text UPPERCASE
