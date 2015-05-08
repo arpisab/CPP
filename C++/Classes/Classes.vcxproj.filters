@@ -13,5 +13,6 @@
     <ClInclude Include="ClassCollection\06_DestructorsAndStackUnwinding.h" />
     <ClInclude Include="ClassCollection\07_Copy_Constructor.h" />
     <ClInclude Include="ClassCollection\08_Copy_Constructor_Gotchas.h" />
+    <ClInclude Include="09_Deep_ShallowCopyConstructors.h" />
   </ItemGroup>
 </Project>
