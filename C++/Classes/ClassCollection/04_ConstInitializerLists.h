@@ -25,7 +25,7 @@ struct Dog
 
 	// The Initializer List runs before the body of the constructor and needs to be const
 	
-	Dog(int dLives) : DOG_LIVES(dLives) // The Initializer List
+	Dog(int dLives) : DOG_LIVES(dLives) // The member Initializer List
 	{
 	}
 };

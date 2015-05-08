@@ -5,10 +5,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassCollection\01_ClassPerson_01.h" />
-    <ClInclude Include="ClassCollection\01_ClassPerson_02.h.h" />
     <ClInclude Include="ClassCollection\02_Constructors.h" />
     <ClInclude Include="ClassCollection\03_StaticClassDataMember.h" />
     <ClInclude Include="ClassCollection\04_ConstInitializerLists.h" />
-    <ClInclude Include="InitializingLargerDataMembers.h" />
+    <ClInclude Include="ClassCollection\01_ClassPerson_02.h" />
+    <ClInclude Include="ClassCollection\05_InitializingLargerDataMembers.h" />
+    <ClInclude Include="ClassCollection\06_DestructorsAndStackUnwinding.h" />
+    <ClInclude Include="ClassCollection\07_Copy_Constructor.h" />
+    <ClInclude Include="ClassCollection\08_Copy_Constructor_Gotchas.h" />
   </ItemGroup>
 </Project>

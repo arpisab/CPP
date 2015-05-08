@@ -1,6 +1,6 @@
 // the canonical "Hello world" program.
 
-// ctrl-shift-B to build
+// "Build" = CTLR + SHIFT + B
 
 // ctrl-F5 start without debugging
 
@@ -14,11 +14,11 @@
 
 // CTRL + alt + l opens "Solution Explorer"
 
-//Move code ALT+UP/DOWN "SUPER COOL"
+// "Move code" ALT+ UP/DOWN arrow
 
-//Create Collapsible Region CTRL+M+H/CTRL+M+U
+// "Create Collapsible Region" -> CTRL+M+H / CTRL+M+U
 
-//Comment code block CTRL+K+C/CTRL+K+U OR CTRL+E+C/CTRL+E+U
+// "Comment code block" CTRL+K+C/CTRL+K+U OR CTRL+E+C/CTRL+E+U
 
 //CTRL + SHIFT + A = "Add new Item" 
 
@@ -27,4 +27,4 @@
 // CTRL + K + D = Format Dodument
 // CTRL + K + F = Format Selection
 
-// CTRL + SHIFT + U = Makes text UPPERCASE
+// "Makes text UPPERCASE" = CTRL + SHIFT + U

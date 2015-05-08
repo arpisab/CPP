@@ -21,10 +21,10 @@ public:
 	}
 };
 
-int MyClass::myStaticInt = 5; //  Static Class Members DEFINITION
+int MyClass::myStaticInt = 5; //  Static Class Members DEFINITION in the "compilation unit"
 
 void main()
 {
-	MyClass::someFunction;
+	MyClass::someFunction; // class function implementation
 	MyClass::myStaticInt; // this won't work cause it's private
 }

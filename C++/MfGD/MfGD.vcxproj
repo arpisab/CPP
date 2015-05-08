@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DEFBBA42-D3E6-48D2-A543-3B8711E23D5A}</ProjectGuid>
+    <ProjectGuid>{8AEADCBB-8F6C-4CC0-BEA7-FEA762E146BF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Classes</RootNamespace>
+    <RootNamespace>MfGD</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,15 +79,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ClassCollection\07_Copy_Constructor.h" />
-    <ClInclude Include="ClassCollection\08_Copy_Constructor_Gotchas.h" />
-    <ClInclude Include="ClassCollection\06_DestructorsAndStackUnwinding.h" />
-    <ClInclude Include="ClassCollection\04_ConstInitializerLists.h" />
-    <ClInclude Include="ClassCollection\02_Constructors.h" />
-    <ClInclude Include="ClassCollection\01_ClassPerson_01.h" />
-    <ClInclude Include="ClassCollection\01_ClassPerson_02.h" />
-    <ClInclude Include="ClassCollection\03_StaticClassDataMember.h" />
-    <ClInclude Include="ClassCollection\05_InitializingLargerDataMembers.h" />
+    <ClInclude Include="Programs\01_Points_And_Vectors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
