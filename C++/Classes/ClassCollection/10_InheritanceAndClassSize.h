@@ -18,6 +18,7 @@ class Base
 	int second;
 };
 
+
 class Derived : public Base // The "Derived" class inherits from the "Base" class with this sintax
 {
 	int derivedMember;

@@ -13,7 +13,7 @@ protected:
 public:
 	void initialize() {
 		meInt = 50;
-		cout << "Base()" << meInt << endl; 
+		cout << "Base()" << meInt << endl;
 	}
 };
 

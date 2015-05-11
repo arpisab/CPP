@@ -13,6 +13,18 @@
     <ClInclude Include="ClassCollection\06_DestructorsAndStackUnwinding.h" />
     <ClInclude Include="ClassCollection\07_Copy_Constructor.h" />
     <ClInclude Include="ClassCollection\08_Copy_Constructor_Gotchas.h" />
-    <ClInclude Include="09_Deep_ShallowCopyConstructors.h" />
+    <ClInclude Include="ClassCollection\09_Deep_ShallowCopyConstructors.h" />
+    <ClInclude Include="ClassCollection\10_InheritanceAndClassSize.h" />
+    <ClInclude Include="ClassCollection\11_vPointer_Virtual.h" />
+    <ClInclude Include="ClassCollection\12_vPointer_Address_Value.h" />
+    <ClInclude Include="ClassCollection\13_vPointer.h" />
+    <ClInclude Include="ClassCollection\15_PureVirtualFunction.h" />
+    <ClInclude Include="ClassCollection\17_InvokingBaseClassConstructors.h" />
+    <ClInclude Include="ClassCollection\16_VirtualDestructors.h" />
+    <ClInclude Include="ClassCollection\18_InvokingBaseClassFunctions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassCollection\14_vPointer.And.vTable.h" />
+    <None Include="19_Constructor_StupidWord.h" />
   </ItemGroup>
 </Project>
