@@ -54,12 +54,12 @@
     <ClInclude Include="Projects\Linked_List\list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Projects\Linked_List\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Projects\Linked_List\List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -33,4 +33,5 @@ void main()
 {
 	Derived d;
 	d.initialize();
+	d.
 }
