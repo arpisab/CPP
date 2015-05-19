@@ -40,9 +40,15 @@ struct Cow
 
 void main()
 {
+<<<<<<< HEAD
 	Cow betzy;
 	/*{
 		Cow george(betzy);
 	}
 	cout << "leaving me" << endl;*/
+=======
+	Derived d;
+	d.initialize();
+	d.
+>>>>>>> 65f78b8aa3db6fc572a94abda19cab02aa3a1800
 }
