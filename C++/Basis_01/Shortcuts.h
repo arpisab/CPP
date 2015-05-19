@@ -1,30 +1,35 @@
-// the canonical "Hello world" program.
+// The canonical "Hello world" program.
 
-// "Build" = CTLR + SHIFT + B
+// "Build" = CTLR SHIFT b
 
-// ctrl-F5 start without debugging
+// "Start without debugging" = CTRL F5 
 
-// F10 = Step Over -> F11 Step IN the code
+// "Step IN the code" = F10 
 
-// F9 toggle brakingpoint F5 debugging
+// "Step Over" = F11 
 
-//Navigate Forward/Backward CTRL - /CTRL SHIFT -
+// "Toggle brakingpoint" = F9
 
-// CTRL + Shift + - Go Foward
+// "Debugging" = F5
 
-// CTRL + alt + l opens "Solution Explorer"
+// "Navigate Forward" = CTRL - 
 
-// "Move code" ALT+ UP/DOWN arrow
+// "Navigate Backward" = CTRL SHIFT -
 
-// "Create Collapsible Region" -> CTRL+M+H / CTRL+M+U
+// "Solution Explorer" = CTRL alt l 
 
-// "Comment code block" CTRL+K+C/CTRL+K+U OR CTRL+E+C/CTRL+E+U
+// "Move code" = ALT + UP/DOWN arrow
 
-//CTRL + SHIFT + A = "Add new Item" 
+// "Create Collapsible Region" = CTRL m h or CTRL m u
 
-//CTRL + SHIFT + SPACE = gives the argumets to fill in the code
+// "Comment code block" = CTRL k u @ CTRL e c
 
-// CTRL + K + D = Format Dodument
-// CTRL + K + F = Format Selection
+// "Add new Item" = CTRL SHIFT a
 
-// "Makes text UPPERCASE" = CTRL + SHIFT + U
+// "Gives the argumets to fill in the code" = CTRL SHIFT SPACE
+			
+// "Format Document" = CTRL k d  
+
+// "Format Selection" = CTRL k f 
+
+// "Makes text UPPERCASE" = CTRL SHIFT u

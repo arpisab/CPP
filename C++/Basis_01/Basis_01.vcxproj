@@ -89,7 +89,6 @@
     <ClInclude Include="Functions.h" />
     <ClInclude Include="killTheStack.h" />
     <ClInclude Include="Pointers.h" />
-    <ClInclude Include="Projects\Linked_List\list.h" />
     <ClInclude Include="QuestionMarkOperator.h" />
     <ClInclude Include="stack_VS_heap.h" />
     <ClInclude Include="Static.h" />
@@ -99,8 +98,7 @@
     <ClInclude Include="Vectors_Push_Pop.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Projects\Linked_List\List.cpp" />
-    <ClCompile Include="Projects\Linked_List\main.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
