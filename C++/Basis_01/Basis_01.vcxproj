@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{94CB8CA5-B919-43CD-830E-CBE42306DA22}</ProjectGuid>
+    <ProjectGuid>{51C6FBB7-DED6-44D4-8D46-36DCD5CFF1E0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Basis_01</RootNamespace>
   </PropertyGroup>
@@ -52,14 +52,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>glut/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>glut/</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glut32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -71,36 +67,31 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>glut/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>glut/</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glut32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="compareDataTypes.h" />
-    <ClInclude Include="DesitionStatemet.h" />
-    <ClInclude Include="Functions.h" />
-    <ClInclude Include="killTheStack.h" />
-    <ClInclude Include="Pointers.h" />
-    <ClInclude Include="Projects\Linked_List\list.h" />
-    <ClInclude Include="QuestionMarkOperator.h" />
-    <ClInclude Include="stack_VS_heap.h" />
-    <ClInclude Include="Static.h" />
-    <ClInclude Include="templateFuncion.h" />
-    <ClInclude Include="Shortcuts.h" />
-    <ClInclude Include="typedef.h" />
-    <ClInclude Include="Vector.h" />
-    <ClInclude Include="Vectors_Push_Pop.h" />
+    <ClInclude Include="Topics\compareDataTypes.h" />
+    <ClInclude Include="Topics\DesitionStatemet.h" />
+    <ClInclude Include="Topics\Functions.h" />
+    <ClInclude Include="Topics\killTheStack.h" />
+    <ClInclude Include="Topics\Pointers.h" />
+    <ClInclude Include="Topics\QuestionMarkOperator.h" />
+    <ClInclude Include="Topics\Shortcuts.h" />
+    <ClInclude Include="Topics\stack_VS_heap.h" />
+    <ClInclude Include="Topics\Static.h" />
+    <ClInclude Include="Topics\templateFuncion.h" />
+    <ClInclude Include="Topics\typedef.h" />
+    <ClInclude Include="Topics\Vector.h" />
+    <ClInclude Include="Topics\Vectors_Push_Pop.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Projects\Linked_List\main.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

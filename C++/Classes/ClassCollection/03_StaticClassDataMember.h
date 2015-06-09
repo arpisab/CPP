@@ -26,5 +26,5 @@ int MyClass::myStaticInt = 5; //  Static Class Members DEFINITION in the "compil
 void main()
 {
 	MyClass::someFunction; // class function implementation
-	MyClass::myStaticInt; // this won't work cause it's private
+	//MyClass::myStaticInt; // this won't work cause it's private
 }

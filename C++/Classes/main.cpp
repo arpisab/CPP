@@ -1,37 +1,54 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//   Invoking Base Class Functions Using the Scope Resolution Operator
+// Deep and Shallow Copy Constructors
+/*
+A shallow copy of an object copies all of the member field values.
+This works well if the fields are values, but may not be what you want for
+fields that point to dynamically allocated memory. The pointer will be copied. but
+the memory it points to will not be copied -- the field in both the original object and
+the copy will then point to the same dynamically allocated memory, which is not usually what you want.
+The default copy constructor and assignment operator make shallow copies.
 
+A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by
+the fields. To make a deep copy, you must write a copy constructor and overload the assignment
+operator, otherwise the copy will point to the original, with disasterous consequences.
+*/
 
 #include <iostream>
-using namespace std;
+#include <string>
+using std::cout;
+using std::endl;
+using std::string;
 
-class Base
-{
-protected:
-	int meInt;
-public:
-	void initialize() {
-		meInt = 50;
-		cout << "Base()" << meInt << endl; 
-	}
-};
+struct Calf { int afoij; };
 
-class Derived : public Base
+struct Cow
 {
-	float meFloat;
-public:
-	void initialize()
+	int numSteaks;
+	Calf* calf;
+	Cow() { calf = new Calf; cout << "I am Betzy" << endl; } // betzy constuctor - "shallow copy"
+
+	Cow(const Cow& original) // copy constructor for george
 	{
-		Base::initialize();
-		meFloat = meInt;
-		cout << "Derived()" << meFloat << endl;
+		numSteaks = original.numSteaks;
+		calf = new Calf(*original.calf); // "george constructor - deep copy"
+		cout << "I am George" << endl;
 	}
+
+	~Cow() { delete calf; }
 };
 
 void main()
 {
+<<<<<<< HEAD
+	Cow betzy;
+	/*{
+		Cow george(betzy);
+	}
+	cout << "leaving me" << endl;*/
+=======
 	Derived d;
 	d.initialize();
 	d.
+>>>>>>> 65f78b8aa3db6fc572a94abda19cab02aa3a1800
 }
