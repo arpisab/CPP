@@ -1,0 +1,6 @@
+D:\Projects\learnProgramming\C#\ScratchPad\ScratchPad\bin\Release\ScratchPad.exe.config
+D:\Projects\learnProgramming\C#\ScratchPad\ScratchPad\bin\Release\ScratchPad.exe
+D:\Projects\learnProgramming\C#\ScratchPad\ScratchPad\bin\Release\ScratchPad.pdb
+D:\Projects\learnProgramming\C#\ScratchPad\ScratchPad\obj\Release\ScratchPad.csprojResolveAssemblyReference.cache
+D:\Projects\learnProgramming\C#\ScratchPad\ScratchPad\obj\Release\ScratchPad.exe
+D:\Projects\learnProgramming\C#\ScratchPad\ScratchPad\obj\Release\ScratchPad.pdb
